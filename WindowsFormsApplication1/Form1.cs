@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
         {
             Prostokat prostokat1 = new Prostokat();
             int a = (int)numericUpDown1.Value;
-            int b = (int)numericUpDown10.Value;
+            int b = (int)numericUpDown2.Value;
             MessageBox.Show("Wynik: " + prostokat1.poleProstokatu(a, b));
         }
 
