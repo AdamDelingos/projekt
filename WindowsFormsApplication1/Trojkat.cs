@@ -9,13 +9,13 @@ namespace WindowsFormsApplication1
     {
         public double poleTrojkat(double a, double h)
         {
-            if (a < 0 || h < 0)
+            if (a < 0 || h < 0) // sprawdzenie warunku
             {
                 return -1;
             }
             else
             {
-                return (a * h) / 2;
+                return (a * h) / 2; //wykonanie działania
             }
         }
     }

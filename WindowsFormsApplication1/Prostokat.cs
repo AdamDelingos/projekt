@@ -9,13 +9,13 @@ namespace WindowsFormsApplication1
     {
         public int poleProstokatu(int a, int b)
         {
-            if (a < 0 || b < 0)
+            if (a < 0 || b < 0) // sprawdzenie warunku
             {
                 return -1;
             }
             else
             {
-                return a * b;
+                return a * b; //wykonanie działania
             }
         }
     }

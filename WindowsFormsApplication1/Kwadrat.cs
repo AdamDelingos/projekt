@@ -9,13 +9,13 @@ namespace WindowsFormsApplication1
     {
         public int poleKwadratu(int a)
         {
-            if (a < 0)
+            if (a < 0) // sprawdzenie czy podana liczba jest większa od zera
             {
                 return -1;
             }
             else
             {
-                return a * a;
+                return a * a; //wykonanie działania
             }
         }
     }
