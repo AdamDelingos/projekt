@@ -23,6 +23,14 @@ namespace WindowsFormsApplication1
             MessageBox.Show("Wynik: " + kwadrat1.poleKwadratu(a));
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Prostokat prostokat1 = new Prostokat();
+            int a = (int)numericUpDown1.Value;
+            int b = (int)numericUpDown10.Value;
+            MessageBox.Show("Wynik: " + prostokat1.poleProstokatu(a, b));
+        }
+
       
     }
 }
