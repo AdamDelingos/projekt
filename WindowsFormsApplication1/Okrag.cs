@@ -5,17 +5,17 @@ using System.Text;
 
 namespace WindowsFormsApplication1
 {
-    public class Prostokat
+    public class Okrag
     {
-        public int poleProstokatu(int a, int b)
+        public double poleOkregu(double r)
         {
-            if (a < 0 || b < 0)
+            if (r < 0)
             {
                 return -1;
             }
             else
             {
-                return a * b;
+                return 2 * 3.14 * r;
             }
         }
     }

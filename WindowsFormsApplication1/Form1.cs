@@ -39,6 +39,13 @@ namespace WindowsFormsApplication1
             MessageBox.Show("Wynik: " + trojkat1.poleTrojkat(a, h));
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Okrag okrag1 = new Okrag();
+            double a = (double)numericUpDown5.Value;
+            MessageBox.Show("Wynik: " + okrag1.poleOkregu(a));
+        }
+
       
     }
 }
